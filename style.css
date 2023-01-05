@@ -1,0 +1,538 @@
+.sec1 {
+    width: 100%;
+
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav {
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    color: white;
+    background-color: transparent;
+    transition: .5s;
+}
+
+
+video {
+    width: 100%;
+    opacity: 40%;
+}
+
+.video {
+    background-color: black;
+}
+
+i {
+    font-size: 100px;
+}
+
+.div {
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin: 4px 0;
+
+}
+
+
+.bars {
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+.menu {
+    margin-left: 60px;
+    padding-right: 50px;
+}
+
+.nav p {
+    font-family: Helvetica, sans-serif;
+    margin-top: 55px;
+    font-weight: lighter;
+
+    cursor: pointer;
+}
+
+.hvr:hover {
+    color: #12784a;
+}
+
+.nav-i {
+    margin-left: 20px;
+    font-weight: 600;
+}
+.logos{
+    
+    padding-top: 21px;
+   
+}
+.left{
+    padding-left: 250px;
+    
+}
+
+.lo{
+    fill: #ffff;
+}
+.nav:hover .lo{
+    fill: #af862f;
+    transition: .2s;
+}
+.nav:hover .rolex{
+    fill: #12784a;
+    transition: .2s;
+}
+.nav:hover {
+    display: block;
+    background-color: white;
+    color: black;
+    
+    
+    
+}
+
+.nav-r {
+    position: absolute;
+    top: 0px;
+    right: 200px;
+
+}
+
+.nav-r2 {
+    position: absolute;
+    top: 0px;
+    right: 40px;
+}
+
+.center {
+    position: absolute;
+    top: 270px;
+    color: white;
+    left: 440px;
+    font-family: sans-serif, Helvetica, now, Text;
+    line-height: 18.4px;
+    font-size: 16px;
+}
+
+.tag {
+    font-weight: lighter;
+    font-family: helvetica;
+    letter-spacing: 3px;
+    font-size: 30px;
+    position: absolute;
+    left: 70px;
+    bottom: 77px;
+}
+
+#demo-text {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url('https://content.rolex.com/dam/homepage/cut-out/homepage-day-date-40-m228238-0042-cut-out.jpg');
+    margin-left: 200px;
+    margin-top: 60px;
+    font-family: 'helvetica ', sans-serif;
+    text-transform: uppercase;
+    line-height: 55px;
+}
+
+.para {
+    font-family: helvetica, sans-serif;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 27.2px;
+    font-weight: 100;
+    letter-spacing: normal;
+    color: #212121;
+}
+
+.btn {
+    cursor: pointer;
+    border-style: solid;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 135px;
+    border-radius: 50px;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-family: helvetica, sans-serif;
+    color: #12784a;
+    background-color: #ffff;
+    border-width: thin;
+    float: left;
+    transition: 0.6s;
+}
+
+.btn:hover {
+    color: #ffff;
+    background-color: #12784a;
+    
+}
+
+.btn-para {
+    cursor: pointer;
+    color: #12784a;
+    font-family: helvetica, sans-serif;
+    float: left;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.btn-para:hover {
+    opacity: 50%;
+}
+
+.rw {
+    font-family: helvetica, sans-serif;
+
+}
+
+.btn-para1 {
+    cursor: pointer;
+    color: #12784a;
+}
+
+.btn-para1:hover {
+    opacity: 70%;
+}
+
+.posters {
+    height: 550px;
+    padding-left: 100px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.posters::-webkit-scrollbar {
+
+    background-color: rgb(211 211 211);
+    height: 4px;
+    position: absolute;
+    left: 20px;
+    cursor: pointer;
+}   
+
+.posters::-webkit-scrollbar-thumb {
+    background: #12784a;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.posters::-webkit-scrollbar-track{
+    width: 100px;
+}
+.card {
+    cursor: pointer;
+    overflow: hidden;
+    min-width: 350px;
+    height: 395px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.card-outer {
+    height: 450px;
+    color: black;
+}
+
+.posters img {
+    width: 100%;
+    border-radius: 20px;
+    overflow-y: hidden;
+    transition: .8s;
+}
+
+.posters img:hover {
+    transform: scale(1.1);
+    
+}
+
+.card-outer h5 {
+    font-size: 36px;
+    margin-top: 100px;
+}
+
+.card-text {
+
+    font-size: 20px;
+    font-family: helvetica;
+}
+
+.card-subtext {
+
+    font-family: helvetica;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.c1 {
+    margin-left: 120px;
+}
+
+.c {
+    margin-left: 15px;
+}
+
+.overlay-small {
+    position: absolute;
+    top: 2050px;
+    left: 165PX;
+    font-size: 20PX;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+.overlay-main {
+    position: absolute;
+    top: 2100px;
+    left: 165PX;
+    font-size: 66PX;
+    color: white;
+    font-family: Helvetica;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.overlay-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 2350px;
+    left: 165PX;
+    font-size: 16PX;
+    color: white;
+    font-family: Helvetica;
+    letter-spacing: 5px;
+    border-style: solid;
+    border-width: thin;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.overlay-btn:hover {
+    color: #12784a;
+    border-color: white;
+    background-color: white;
+    border: none;
+}
+
+.disc {
+    margin-left: 150px;
+    font-family: Helvetica;
+
+}
+
+.imgba {
+    width: 1200px;
+    margin-left: 160px;
+    margin-top: 30px;
+    height: 400px;
+    background-color: transparent;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.imgwa {
+    width: 1200px;
+    border-radius: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.imgwa:hover {
+    transform: scale(1.1);
+    
+}
+
+.newwa {
+    margin-left: 170px;
+    font-family: Helvetica;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.cole {
+    margin-left: 170px;
+    font-family: Helvetica;
+    font-size: 13px;
+}
+
+.im1 {
+    float: left;
+    margin-left: 250px;
+    border-radius: 30px;
+    overflow: hidden;
+    width: 500px;
+    background-color: black;
+}
+
+.im2 {
+    float: left;
+    margin-left: 12px;
+    border-radius: 30px;
+    overflow: hidden;
+    width: 500px;
+
+}
+
+.im1 img {
+    cursor: pointer;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.im2 img {
+    cursor: pointer;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.im1 img:hover {
+    transform: scale(105%);
+    transition: .5s;
+}
+
+.im2 img:hover {
+    transform: scale(105%);
+    
+}
+
+.cinema {
+    position: absolute;
+    left: 250px;
+    top: 3530px;
+    font-size: 21px;
+    font-family: helvetica;
+    letter-spacing: 2px;
+    height: 10px;
+
+}
+
+.world {
+    position: absolute;
+    left: 250px;
+    top: 3555px;
+    font-family: helvetica;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.art {
+    position: absolute;
+    left: 780px;
+    top: 3530px;
+    font-size: 21px;
+    font-family: helvetica;
+    letter-spacing: 2px;
+    height: 10px;
+    text-transform: uppercase;
+}
+
+.world2 {
+    position: absolute;
+    left: 780px;
+    top: 3555px;
+    font-family: helvetica;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.social {
+    
+    background-color: rgb(247 247 247);
+    width: 100%;
+    height: 202px;
+}
+
+.social h4 {
+    font-family: helvetica;
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin-left: 645px;
+    padding-top: 50px;
+}
+
+.icon {
+    cursor: pointer;
+    background-color: #ffff;
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #12784a;
+
+}
+
+i {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.icon:hover {
+    color: #ffff;
+    background-color: #12784a;
+    transition: .5s;
+}
+
+.lan {
+    cursor: pointer;
+    padding-left: 30px;
+    padding-top: 30px;
+    color: white;
+    float: left;
+}
+
+.acc {
+    cursor: pointer;
+    padding-right: 40px;
+    padding-top: 30px;
+    color: white;
+    float: right;
+}
+
+.watches {
+    margin-left: 190px;
+}
+
+.h {
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 23.4px;
+    cursor: pointer;
+}
+
+.sm {
+    font-size: 15px;
+}
+
+.footer li:hover {
+    color: #af862f;
+}
+
+.fhead:hover {
+    color: #af862f;
+}
